@@ -37,7 +37,7 @@ class Footer {
 
 		let footerStyle = document.createElement('link');
 		footerStyle.rel = 'stylesheet';
-		footerStyle.href = 'http://test.gisehaag.com/assets/footer-styles.css';
+		footerStyle.href = '../css/footer.css';
 		document.head.appendChild(footerStyle);
 	}
 }
